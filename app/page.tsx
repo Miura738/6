@@ -5,7 +5,7 @@ export default function Home() {
     return (
         <main>
             <header className="w-screen h-screen flex justify-center items-center">
-                <Link href={"/dev/6"} className={"cursor-pointer w-[120px] h-[120px] flex justify-center items-center"}>
+                <Link href={"/6"} className={"cursor-pointer w-[120px] h-[120px] flex justify-center items-center"}>
                     <div className="rotate">⑥</div>
 
                 </Link>
