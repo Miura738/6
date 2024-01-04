@@ -28,7 +28,7 @@ const Test = ({href,children,...props}: { href: string,children?:string }) => {
 
         return () => {
             MainView.removeEventListener("wheel", handleScroll);
-            ButtonView.addEventListener("click", scroll);
+            ButtonView.removeEventListener("click", scroll);
         };
     }, []);
     return

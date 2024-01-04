@@ -1,5 +1,6 @@
 import './globals.css'
 import Test from "@/components/test";
+import React from "react";
 
 export default function Home() {
 
@@ -42,7 +43,6 @@ export default function Home() {
                 6666666666666666666666666666
             </div>
             <Test/>
-            {/*<script src={`/static/js/test.js`}></script>*/}
         </main>
 
     )
