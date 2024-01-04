@@ -2,7 +2,7 @@
 
 import {useEffect} from "react";
 
-const Test = ({href,children,...props}: { href: string,children?:string }) => {
+const Test = ({children,...props}: { children?:string }) => {
 
 
     useEffect(() => {
