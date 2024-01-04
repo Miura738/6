@@ -4,8 +4,8 @@ export default function Page({ params }: { params: { data: string,post: string }
   return (
   <main>
     <header className="w-screen h-screen flex justify-center items-center">
-      <Link href={`/${params.post}`} className={"cursor-pointer w-[120px] h-[120px] flex justify-center items-center"}>
-        <div className="rotate">{params.data}</div>
+      <Link href={`/${params.post}`} className={"cursor-pointer flex justify-center items-center"}>
+        <div className="rotate">{decodeURIComponent(params.data)}</div>
 
       </Link>
 
