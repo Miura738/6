@@ -2,7 +2,7 @@
 
 import {useEffect} from "react";
 
-const Test = ({children,...props}: { children?:string }) => {
+const Test = () => {
 
 
     useEffect(() => {
