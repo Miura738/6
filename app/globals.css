@@ -2,10 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  overflow: hidden;
+}
+::selection {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+
+
 @keyframes rotate {
   0% {
     transform: rotate(0deg);
-    font-size: 5rem;
+    font-size: 6rem;
   }
   50% {
     font-size: 0;
@@ -13,7 +33,7 @@
   }
   100% {
     transform: rotate(360deg);
-    font-size: 3rem;
+    font-size: 4rem;
   }
 }
 
@@ -25,7 +45,7 @@
     width: 0;
   }
   to {
-    width: 12rem;
+    width: 100%;
   }
 }
 
@@ -35,7 +55,7 @@
     height: 0;
   }
   to {
-    height: 8rem;
+    height: 100%;
   }
 }
 
@@ -51,7 +71,7 @@
     width: 0;
   }
   to {
-    width: 5rem;
+    width: 100%;
   }
 }
 
@@ -61,7 +81,7 @@
     height: 0;
   }
   to {
-    height: 13rem;
+    height: 100%;
   }
 }
 
