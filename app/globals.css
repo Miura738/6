@@ -18,7 +18,7 @@
 }
 
 .rotate {
-  animation: rotate 1s infinite ease-in-out;
+  animation: rotate 2s infinite ease-in-out;
 }
 @keyframes wtl {
   from {
@@ -44,4 +44,30 @@
 }
 .htl {
   animation: htl 800ms forwards ease-in;
+}
+
+@keyframes wbr {
+  from {
+    width: 0;
+  }
+  to {
+    width: 5rem;
+  }
+}
+
+
+@keyframes hbr {
+  from {
+    height: 0;
+  }
+  to {
+    height: 13rem;
+  }
+}
+
+.wbr {
+  animation: wbr 800ms forwards ease-in;
+}
+.hbr {
+  animation: hbr 800ms forwards ease-in;
 }

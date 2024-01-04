@@ -10,9 +10,17 @@ export default function Home() {
 
                 </Link>
 
-                <div> 
-                    <div className='border border-t-black wtl absolute z-10 top-16 left-10'></div>
-                    <div className='border border-l-black htl absolute z-10 top-10 left-16'></div>
+                <div>
+
+                    <div className={`absolute z-10 bottom-16 right-10 w-20 rotate-180`}>
+                        <div className={`border border-t-black wbr`}></div>
+                    </div>
+                    <div className={`absolute z-10 bottom-10 right-16 h-52 rotate-180`}>
+                        <div className={`border border-l-black hbr`}></div>
+                    </div>
+
+                    <div className={`border border-t-black wtl absolute z-10 top-16 left-10`}></div>
+                    <div className={`border border-l-black htl absolute z-10 top-10 left-16`}></div>
                 </div>
             </header>
         </main>
