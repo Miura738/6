@@ -37,7 +37,7 @@ export default function Home() {
             </header>
 
             <div className={`w-screen h-36 flex justify-center items-center`}>
-                666666666666666666666666666666666666666666666666666666666666
+                6
             </div>
             <div className={`w-screen h-screen flex justify-center items-center`}>
                 6666666666666666666666666666
